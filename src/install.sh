@@ -53,8 +53,7 @@ function install_node_npm {
 }
 
 function update_node_npm {      
-    npm install -g n && n stable
-    PATH="$PATH"
+    npm install -g n && n stable    
     npm -g install npm@next
 }
 
